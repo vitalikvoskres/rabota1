@@ -1,7 +1,7 @@
 import React from "react";
 import "./Burger.css";
 import LogoBurger from "../../assets/LogoBurger.svg";
-import IconClose from "../../assets/iconclose.svg";
+import IconClose from "../../assets/Iconclose.svg";
 
 const BurgerMenu = ({ open, setOpen }) => {
   return (
