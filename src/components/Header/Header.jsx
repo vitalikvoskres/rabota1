@@ -2,7 +2,7 @@ import "./Header.css";
 import bose from "../../assets/Logo.svg";
 import burger from "../../assets/burger.svg";
 import call from "../../assets/call.svg";
-import sound from "../../assets/sound.svg";
+import sound from "../../assets/Sound.svg";
 import wave from "../../assets/Vector1.svg";
 
 function Header({ open, setOpen }) {
