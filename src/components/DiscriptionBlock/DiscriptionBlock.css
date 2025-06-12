@@ -1,0 +1,250 @@
+.DiscRed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DiscBlue1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 74px;
+  width: 100%;
+}
+.DiscPink {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.DiscGreen1 > h1 {
+  text-align: start;
+}
+.DiscGreen2 {
+  display: flex;
+  width: 411px;
+  flex-direction: column;
+  gap: 40px;
+}
+.DiscBrown1 > ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+.DiscBrown2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0px;
+}
+.DiscBrown5 {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #f8f8fa;
+}
+.DiscBrown5:focus {
+  outline: none;
+}
+
+.DiscBrown5::placeholder {
+  color: #757575;
+  opacity: 1;
+}
+.DiscGreen3 {
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  padding-top: 120px;
+}
+.DiscPurple {
+  display: flex;
+  padding: 48px;
+  gap: 198px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.DiscGreen4 {
+  display: flex;
+  align-items: column;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 408px;
+  width: 100%;
+}
+.DiscGreen5 {
+  display: flex;
+  flex-direction: column;
+  align-items: column;
+  gap: 24px;
+}
+.DiscBrown4 {
+  width: 408;
+  height: 48;
+  top: 3716px;
+  left: 123px;
+}
+.DiscBrown5 {
+  width: 408;
+  height: 148;
+  top: 3780px;
+  left: 123px;
+  gap: 10px;
+  border-radius: 16px;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border: 0;
+}
+.DiscBrown7 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  line-height: 100%;
+}
+.contactTitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  color: #757575;
+}
+.ContactAdress {
+  width: 180px;
+}
+.backgroundBaba {
+  background-image: url("../../assets/backgroundBaba.svg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 480px;
+}
+.DiscBrown3 {
+  padding: 14px 16px;
+  border: 1px solid white;
+  background-color: #f8f8fa;
+  border-radius: 40px;
+  width: 100%;
+}
+.DiscBrown3:hover {
+  border: 1px solid #000;
+}
+.DiscBlue2 {
+  width: 100%;
+}
+.DiscBrown3:focus {
+  outline: none;
+}
+.DiscBrown6 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: 3px solid #292929;
+  border-radius: 40px;
+  padding: 14px 16px;
+  transition: background-color 0.3s ease;
+}
+.DiscBrown6:hover {
+  background-color: #000;
+  color: #fff;
+}
+.backgroundBaba {
+  width: 100%;
+}
+.backgroundBaba > img {
+  width: 100%;
+}
+.DiscBrown3,
+.DiscBrown5:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  .DiscBlue2 {
+    flex-direction: column;
+  }
+  .DiscBlue1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .DiscPurple {
+    display: flex;
+    gap: 24px;
+  }
+}
+@media (max-width: 560px) {
+  .DiscBlue1 {
+    flex-direction: column;
+  }
+  .DiscPurple {
+    flex-direction: column;
+  }
+  .DiscGreen2 {
+    width: 100%;
+  }
+  .DiscBrown2 {
+    width: 100%;
+  }
+  .DiscGreen1 > h1,
+  .DiscGreen1 {
+    width: 100%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.5px;
+  }
+  .DiscGreen4 {
+    max-width: none;
+  }
+
+  .DiscGreen3 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.5px;
+    text-align: center;
+  }
+  .backgroundBaba {
+    background: url("../../assets/backgroundBaba1.svg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+  .DiscBrown3,
+  .DiscBrown5:hover {
+    cursor: pointer;
+  }
+}

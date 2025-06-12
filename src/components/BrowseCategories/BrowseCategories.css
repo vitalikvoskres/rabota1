@@ -1,0 +1,137 @@
+.Browse-pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+  padding: 120px 0;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
+.Browse-blue1 {
+  display: flex;
+  font-size: 24px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.Browse-blue2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Purple1 {
+  display: flex;
+  gap: 24px;
+}
+.Browse-brown1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+.Browse-blue3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Browse-brown2 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+.Browse-blue4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Browse-brown3 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+.view-all {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  padding: 15px 10px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 356px;
+}
+
+.view-all:hover {
+  background-color: black;
+}
+@media (max-width: 1050px) {
+  .browsephoto {
+    width: 100%;
+  }
+  .Browse-pink {
+    padding: 120px 20px;
+  }
+}
+@media (max-width: 560px) {
+  .browsephoto {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .Purple1 {
+    display: flex;
+    gap: 20px;
+  }
+  .Browse-green6 > img,
+  .Browse-green3 > img {
+    object-position: right;
+  }
+  .Browse-blue2,
+  .Browse-blue3,
+  .Browse-blue4 {
+    gap: 16px;
+  }
+  .Browse-brown1,
+  .Browse-brown2,
+  .Browse-brown3 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+  }
+  .Browse-pink {
+    gap: 40px;
+  }
+  h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.5px;
+    text-align: center;
+  }
+  .view-all {
+    max-width: 288px;
+  }
+}

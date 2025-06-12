@@ -1,0 +1,134 @@
+.Recommend-pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+  padding-top: 120px;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+.Recommend-blue2 {
+  display: flex;
+  gap: 24px;
+}
+.Recommend-yellow1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.Recommend-yellow1:hover {
+    transform: scale(1.2);
+  }
+.Recommend-yellow2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.Recommend-yellow2:hover {
+    transform: scale(1.2);
+  }
+.Recommend-yellow3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.Recommend-yellow3:hover {
+  transform: scale(1.2);
+}
+.Recommend-green2 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.Recommend-green4 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.Recommend-green6 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.Recommend-brown2 {
+  font-weight: normal;
+}
+.Recommend-brown8 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+.Recommend-brown5 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+@media (max-width: 1050px) {
+  .Recommend-blue2 {
+    flex-direction: column;
+  }
+  .Recommend-yellow1 {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  .Recommend-yellow1:hover {
+    transform: scale(1.2);
+  }
+  .Recommend-yellow2 {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  .Recommend-yellow2:hover {
+    transform: scale(1.2);
+  }
+  .Recommend-yellow3 {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  .Recommend-yellow3:hover {
+    transform: scale(1.2);
+  }
+}
